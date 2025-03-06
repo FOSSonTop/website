@@ -3,6 +3,7 @@
 repos=(
     "https://github.com/FOSSonTop/aosp docs/aosp"
     "https://github.com/FOSSonTop/crave docs/crave"
+    "https://github.com/FOSSonTop/gamedev docs/gamedev"
 )
 
 # Loop through each repo and update it

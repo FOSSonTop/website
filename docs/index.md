@@ -13,5 +13,8 @@ features:
   - title: Crave.io Docs
     details: Everything you need to know about using crave.io!
     link: /crave/
+  - title: Game Development Guides
+    details: Get started with Game Development today!
+    link: /gamedev/
 ---
 

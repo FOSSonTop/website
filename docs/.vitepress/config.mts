@@ -21,7 +21,7 @@ function genSidebarConfig(doc: string){
   }
 };
 
-const vitePressSidebarOptions = [genSidebarConfig("aosp"), genSidebarConfig("crave")]
+const vitePressSidebarOptions = [genSidebarConfig("aosp"), genSidebarConfig("crave"), genSidebarConfig("gamedev/assets"), genSidebarConfig("gamedev/godot")]
 
 const vitePressOptions = {
   title: "FOSSonTop",
@@ -31,7 +31,8 @@ const vitePressOptions = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'AOSP Docs', link: '/aosp/' },
-      { text: 'Crave.io Docs', link: '/crave/' }
+      { text: 'Crave.io Docs', link: '/crave/' },
+      { text: 'Game Development Guides', link: '/gamedev/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/FOSSonTop' }
