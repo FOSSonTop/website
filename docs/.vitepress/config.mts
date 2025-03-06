@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar';
 import { withMermaid } from "vitepress-plugin-mermaid";
+import lightbox from "vitepress-plugin-lightbox"
 
 // https://vitepress.dev/reference/site-config
 function genSidebarConfig(doc: string){
@@ -55,8 +56,14 @@ const vitePressOptions = {
           }
         }
       }
-    }
-  }
+    },
+  },
+  markdown: {
+    config: (md) => {
+      // Use lightbox plugin
+      md.use(lightbox, {});
+    },
+  },
 }
 
 const config = defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions))
