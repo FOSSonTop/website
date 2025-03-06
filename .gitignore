@@ -1,5 +1,5 @@
+docs/*
+!docs/.vitepress
 docs/.vitepress/dist
 docs/.vitepress/cache
-docs/crave
-docs/aosp
 node_modules
